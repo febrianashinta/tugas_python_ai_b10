@@ -1,0 +1,94 @@
+# =====================================
+# TUGAS PYTHON DASAR - PEMULA
+# =====================================
+
+# -------------------------------
+# 1. VARIABEL DAN TIPE DATA
+# -------------------------------
+
+nama = "Febriana"     # string
+umur = 20             # integer
+tinggi = 160.5        # float
+is_mahasiswa = True   # boolean
+hobi = ["membaca", "gaming", "nonton", "musik", "jalan"]  # list
+
+print("=== DATA DIRI ===")
+print("Nama:", nama)
+print("Umur:", umur)
+print("Tinggi:", tinggi)
+print("Mahasiswa:", is_mahasiswa)
+print("Hobi:", hobi)
+
+print("\n----------------------\n")
+
+# -------------------------------
+# 2. MANIPULASI STRING
+# -------------------------------
+
+kalimat = "saya sedang belajar python"
+
+# gabung string
+gabung = kalimat + " di rumah"
+print("Gabungan:", gabung)
+
+# panjang string
+print("Panjang kalimat:", len(kalimat))
+
+# huruf besar
+print("Upper:", kalimat.upper())
+
+# huruf kecil
+print("Lower:", kalimat.lower())
+
+print("\n----------------------\n")
+
+# -------------------------------
+# 3. OPERASI MATEMATIKA
+# -------------------------------
+
+a = 10
+b = 3
+
+print("Penjumlahan:", a + b)
+print("Pengurangan:", a - b)
+print("Perkalian:", a * b)
+print("Pembagian:", a / b)
+print("Pembagian bulat:", a // b)
+print("Sisa bagi:", a % b)
+
+print("\n----------------------\n")
+
+# -------------------------------
+# 4. LIST DAN AKSES ELEMEN
+# -------------------------------
+
+buah = ["apel", "jeruk", "mangga", "pisang", "anggur"]
+
+print("List buah:", buah)
+
+# akses elemen
+print("Buah pertama:", buah[0])
+print("Buah ketiga:", buah[2])
+
+# tambah item
+buah.append("melon")
+print("Setelah tambah:", buah)
+
+# hapus item
+buah.remove("jeruk")
+print("Setelah hapus jeruk:", buah)
+
+# hapus item terakhir
+buah.pop()
+print("Setelah pop:", buah)
+
+print("\n----------------------\n")
+
+# -------------------------------
+# 5. INPUT DARI USER
+# -------------------------------
+
+nama_user = input("Masukkan nama kamu: ")
+umur_user = input("Masukkan umur kamu: ")
+
+print("Halo, nama saya", nama_user, "dan umur saya", umur_user, "tahun.")
